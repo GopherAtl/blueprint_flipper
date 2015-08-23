@@ -1,0 +1,10 @@
+{
+  "name": "blueprint_flipper",
+  "version": "0.1.0",
+  "title": "Blueprint Flipper",
+  "author": "GopherAtl",
+  "homepage": "",
+  "contact": "gopheratl@gmail.com",
+  "description": "adds buttons for mirroring a held blueprint",
+  "dependencies": ["base >= 0.12.0"]
+}
