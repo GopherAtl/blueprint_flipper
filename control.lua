@@ -36,9 +36,9 @@ end
 
 local function doButtons(player_index)
   if not game.players[player_index].gui.top.blueprint_flipper_flow then
-    local flow=game.players[player_index].gui.top.add{type="flow",name="blueprint_flipper_flow",direction="vertical"}
-    flow.add{type="button",name="blueprint_flip",caption="Flip BP Horiz.",style="bpflip_button_style"}
-    flow.add{type="button",name="blueprint_flop",caption="Flip BP Vert.",style="bpflip_button_style"}
+    local flow=game.players[player_index].gui.top.add{type="flow", name="blueprint_flipper_flow", direction="vertical"}
+    flow.add{type="button", name="blueprint_flip", style="blpflip_button_horizontal"}
+    flow.add{type="button", name="blueprint_flop", style="blpflip_button_vertical"}
   end
 end
 
